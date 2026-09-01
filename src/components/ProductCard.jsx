@@ -3,7 +3,7 @@ import { useCart } from '../context/CartContext'
 
 export default function ProductCard({product}){
   const { addToCart } = useCart()
-  const firstImage = product.image || (Array.isArray(product.images) && product.images[0]) || '/assets/images/fallback.svg'
+  const firstImage = product.imageResolved || product.image || (Array.isArray(product.imagesResolved) && product.imagesResolved[0]) || (Array.isArray(product.images) && product.images[0]) || '/assets/images/fallback.svg'
   return (
     <article className="bg-white border rounded-md overflow-hidden shadow-sm hover:shadow-md flex flex-col">
       <Link to={`/product/${product.id}`} className="block flex-1">
@@ -12,6 +12,7 @@ export default function ProductCard({product}){
           alt={product.title}
           loading="lazy"
           decoding="async"
+          referrerPolicy="no-referrer"
           onError={(e) => { e.currentTarget.src = '/assets/images/fallback.svg' }}
           className="w-full h-56 object-cover"
         />
