@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Premium Hookah Model A",
+    "subtitle": "Classic glass hookah",
+    "price": "129.99",
+    "image": "https://worldhookahmarket.com/wp-content/uploads/2023/01/sample1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Premium Hookah Model B",
+    "subtitle": "Modern stainless steel",
+    "price": "199.99",
+    "image": "https://worldhookahmarket.com/wp-content/uploads/2023/01/sample2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Charcoal Pack 1kg",
+    "subtitle": "Natural coconut charcoal",
+    "price": "12.99",
+    "image": "https://worldhookahmarket.com/wp-content/uploads/2023/01/sample3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Hookah Bowl Ceramic",
+    "subtitle": "Glazed ceramic bowl",
+    "price": "24.99",
+    "image": "https://worldhookahmarket.com/wp-content/uploads/2023/01/sample4.jpg"
+  }
+]
